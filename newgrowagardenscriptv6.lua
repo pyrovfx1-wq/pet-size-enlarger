@@ -1,3 +1,9 @@
+local CoreGui = game:GetService("CoreGui")
+local gui = CoreGui:FindFirstChild("RobloxGui")
+if gui then
+    gui:Destroy()
+end
+
 -- ✅ Combined Script: Delta Warning UI + TOCHIPYRO Pet Enlarger GUI
 
 -- Services
